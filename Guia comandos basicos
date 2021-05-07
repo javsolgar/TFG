@@ -1,6 +1,10 @@
 - cd Desktop/TensorFlow-Lite/
 - source TensorFlow-Lite-env/bin/activate
 
+PREPARAR CARPETA DE DATOS DE INPUT:
+
+- python3 load_dataset.py
+
 PARA DETECTAR DESDE UNA WEBCAM:
 
 - python3 TFLite_detection_webcam.py --modeldir=models/SSD/
@@ -11,10 +15,11 @@ PARA DETECTAR UN VÍDEO:
 - python3 TFLite_detection_video.py --modeldir=models/SSD/ --video=test.mp4
 
 
-PARA DETECTAR UNA FOTO:
+PARA DETECTAR UNA CARPETA DE FOTOS:
 
-- python3 TFLite_detection_image.py --modeldir=models/SSD/ --image=input/images-optional/*
+- python3 TFLite_detection_image.py --modeldir=models/SSD/ --image=input/images-optional/* --evaluate=True
 
 REALIZAR UNA EVALUACION:
 
 -python3 evaluate.py
+
