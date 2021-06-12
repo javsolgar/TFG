@@ -1,4 +1,4 @@
-# Investigación e mplementación de cámara de seguridad en Raspberry Pi 3 B y Jetson Nano 2 GB Developer Kit
+# Investigación e implementación de cámara de seguridad en Raspberry Pi 3 B y Jetson Nano 2 GB Developer Kit
 ### Trabajo de Fin de Grado de Javier Solís García
 
 ## Descripción
