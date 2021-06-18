@@ -14,7 +14,7 @@ Dentro de este proyecto se encuentra el código y archivos necesarios para ejecu
 En cuanto a los comandos disponibles y sus funciones, a continuación se encuentran detallados:
 
 1. Ejecutar carga del dataset:
-```python3 load_data.py --path=<path>```
+```python3 load_dataset.py --path=<path>```
    - ruta al directorio que contiene la carpeta test de INRIA person dataset.
 
 
